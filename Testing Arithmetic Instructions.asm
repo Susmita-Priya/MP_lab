@@ -1,0 +1,49 @@
+
+;Tanvir ahammed hridoy
+
+org 100h
+
+;ADD
+MOV AX,5
+MOV BX,5
+ADD AX,BX 
+
+;ADC
+STC
+MOV AX,5
+MOV BX,4
+ADC AX,BX 
+    
+;INC
+MOV AX,8
+INC AX
+ 
+;SUB 
+MOV AX,5
+MOV BX,2
+SUB AX,BX
+
+;SBB
+STC
+MOV AX,5 
+MOV BX,3
+SBB AX,BX
+      
+;DEC
+MOV AX,6
+DEC AX
+
+;MUL
+MOV AX,4
+MOV BX,5
+MUL BX
+
+;DIV
+MOV AX,10
+MOV BX,3
+DIV BX
+ret
+
+
+
+

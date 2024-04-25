@@ -1,0 +1,55 @@
+
+;Tanvir Ahammed Hridoy
+
+org 100h
+
+;AND
+MOV AX,2
+MOV BX,3
+AND AX,BX
+
+;XOR
+MOV AX,4
+MOV BX,5
+XOR AX,BX    
+
+;SHL
+MOV AX,56
+SHL AX,1 
+
+;SHR
+MOV AX,23
+SHR AX,1 
+        
+;SAL
+MOV AX,12
+SAL AX,1 
+
+;SAR
+MOV AX,76
+SAR AX,1  
+
+;ROL
+MOV AX,34
+ROL AX,1
+
+;ROR
+MOV AX,22
+ROR AX,1
+
+;RCL
+STC 
+MOV AX,62
+RCL AX,1
+
+;RCR 
+STC 
+MOV AX,41
+RCR AX,1
+
+
+ret
+
+
+
+
